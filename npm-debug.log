@@ -1,0 +1,33 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'ls', '--depth', '0', '--json' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 error peer dep missing: hapi@>=17.x.x, required by hapi-auth-basic@5.0.0
+4 error extraneous: body-parser@1.19.0 /home/kanchan/Desktop/HAPPI/hapi/node_modules/body-parser
+4 error extraneous: handlebars@4.0.0 /home/kanchan/Desktop/HAPPI/hapi/node_modules/handlebars
+4 error extraneous: hapi-auth-basic@5.0.0 /home/kanchan/Desktop/HAPPI/hapi/node_modules/hapi-auth-basic
+4 error extraneous: hapi-auth-cookie@10.0.0 /home/kanchan/Desktop/HAPPI/hapi/node_modules/hapi-auth-cookie
+4 error extraneous: hapi-auth-jwt@4.0.0 /home/kanchan/Desktop/HAPPI/hapi/node_modules/hapi-auth-jwt
+4 error extraneous: hapi-login@1.2.2 /home/kanchan/Desktop/HAPPI/hapi/node_modules/hapi-login
+4 error extraneous: jsonwebtoken@8.5.1 /home/kanchan/Desktop/HAPPI/hapi/node_modules/jsonwebtoken
+4 error extraneous: knex@0.19.1 /home/kanchan/Desktop/HAPPI/hapi/node_modules/knex
+4 error extraneous: morgan@1.9.1 /home/kanchan/Desktop/HAPPI/hapi/node_modules/morgan
+4 error extraneous: os@0.1.1 /home/kanchan/Desktop/HAPPI/hapi/node_modules/os
+4 error extraneous: sequelize@5.13.0 /home/kanchan/Desktop/HAPPI/hapi/node_modules/sequelize
+4 error extraneous: sqlite3@4.0.9 /home/kanchan/Desktop/HAPPI/hapi/node_modules/sqlite3
+5 verbose exit [ 1, true ]
+6 verbose stack Error: write EPIPE
+6 verbose stack     at _errnoException (util.js:1022:11)
+6 verbose stack     at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+7 verbose cwd /home/kanchan/Desktop/HAPPI/hapi
+8 error Linux 4.15.0-62-generic
+9 error argv "/usr/bin/node" "/usr/bin/npm" "ls" "--depth" "0" "--json"
+10 error node v8.10.0
+11 error npm  v3.5.2
+12 error code EPIPE
+13 error errno EPIPE
+14 error syscall write
+15 error write EPIPE
+16 error If you need help, you may report this error at:
+16 error     <https://github.com/npm/npm/issues>
+17 verbose exit [ 1, true ]
