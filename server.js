@@ -10,8 +10,8 @@ var server      =   new Hapi.Server()
 var conc = mySQL.createConnection({
     host:"localhost",
     user:"root",
-    password:"New@12345",
-    database:"user",
+    password:"MYSQL_Password",
+    database:"Name_of_Database",
     });
     
  conc.connect(function(err){
